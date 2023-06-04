@@ -18,7 +18,6 @@ const AllProducts = () => {
 
     return (
         <div>
-            <h2>All Products</h2>
             <div className='grid grid-cols-2 gap-5'>
                 {
                     allProducts.map(product => <ProductCard
